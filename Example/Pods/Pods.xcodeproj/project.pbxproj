@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2290072531E10DD420CCC04E251829C4 /* RNImageViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E81F1744C9A0F9A148E633E81C8E4B2 /* RNImageViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		322BD3EF6573F2A307E7034AB0717942 /* RNTableViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D18322E46AB11EF308C96D690C4A5 /* RNTableViewMaker.m */; };
+		374924EC2F7B16E596001279348F12D2 /* RNControlMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 94351294D16F08A0550051EEB06F929B /* RNControlMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DFC6C7B86EE2643BA34836CF5244E27 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC0F020263CDEF090BE2A6730071FEA /* UIColor+Hex.m */; };
+		41C8E0969CABC01595B89388CB99E178 /* RNButtonMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = C2491189A2DF0146E9DBBA9357102923 /* RNButtonMaker.m */; };
+		4B6A2579814FA0CAD576C49BABF52AE3 /* RNControlMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A2312F6A867F762CC1F187AA1C202F1F /* RNControlMaker.m */; };
+		564754A54446187E20154CC463DD7726 /* Pods-RNLinkUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1524E46117035C91141A0F85863CE8 /* Pods-RNLinkUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656EE1D342495D471ACC2AFDA180D944 /* RNLinkUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F39139161C632D0F0196DEDA607FDA /* RNLinkUIKit-dummy.m */; };
+		65EA0A47F957A62464F3FAA7ADAFD67B /* RNViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E96BD53E0C9F1C74DD4117E9F0B30A /* RNViewMaker.m */; };
+		6643A68C210E3A8143E754CE21F5F1C6 /* RNCollectionViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 129CA0438AF8E3209538298125F23360 /* RNCollectionViewMaker.m */; };
+		6CF637AB418ED961550A2B97DA822A91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		704A6F6C0CD05820773F146244138895 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7EA9B737F50E01ADDD0CA57D72DB4EDD /* RNTextViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9A968C54408DEBFEB783F31685A089 /* RNTextViewMaker.m */; };
+		8A53B30D73EDEAE78F4BA4E4BCD35C9C /* Pods-RNLinkUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E26D6E0C45E970364E173F6F803C0 /* Pods-RNLinkUIKit_Example-dummy.m */; };
+		91FBFA06E6E39EC38EE932071FC11A1F /* RNTableViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DB934CE13239B92F9EDB232D709503E /* RNTableViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		954C72AA00DE9A9070F053EA4E821851 /* RNLinkUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D3708178A516EAE60C02FCCF364E20 /* RNLinkUIKit.m */; };
+		994302510BE88A86AFBD237D172F5E56 /* RNImageViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CDADE7E9BC9AB990AA17F6DF965397 /* RNImageViewMaker.m */; };
+		9D8ED239B80A4BC77CCA9C7AF29E3700 /* RNCollectionViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F02465091486FDCFBD7A8D7ABF938A /* RNCollectionViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF9DEE0807F862DFBB56B7188FD79AC /* RNTextViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = F200C67E7BD0536F64031F3CC1DD3DED /* RNTextViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B143329804C2C6696ADA53E417DC0EEB /* RNButtonMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 129401F9994B258350FDE043DCAC4248 /* RNButtonMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEBDCF7628524A4481981B6FC423CBA1 /* RNLabelMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDC9475732B93BEEFC4939A24276E4E /* RNLabelMaker.m */; };
+		C155F21E161E8FE1002D83A188019DE9 /* RNLabelMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 929AD6D065FDC55026E900B76F2D2042 /* RNLabelMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6CFDFECC90C8BAC2B06267459DF09A9 /* RNViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C82FEF3243B60D6ABB363C39D8E4FA6 /* RNViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C72F8A798CD4B9E2576EB80E2BFA814B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D160DF2E1A0A36A350AFC0CA5D100B10 /* Pods-RNLinkUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFADC9328BEF8D425B837DF86EB7C90 /* Pods-RNLinkUIKit_Tests-dummy.m */; };
+		E021C9B806B8581624423DFFE5C4AB79 /* RNScrollViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C3742E7709BC54AD072E2DDAF0F66F /* RNScrollViewMaker.m */; };
+		E49A330847AD97A3BFB30681A2422FD1 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = B2589D82E9CF47CB13B927F7946948F0 /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5AA97F9BE7BA784CAAAC8FCFEC95B3A /* RNLinkUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E095CC3C03C23E26B6EC64407C8C7457 /* RNLinkUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8BC295DA718DD3CF9C1EC04F439464F /* RNLinkUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D16D3411A25E075EEAC9D6D3081E078 /* RNLinkUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8AD6D4713BC1CB0B6C95B4C4C80DCCF /* RNScrollViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 010F1A4BA4213C2DEAE034A63169B359 /* RNScrollViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBCCFE947E9F4914BE30F54D46220EE8 /* Pods-RNLinkUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9825B21D9191F078BEC7847C4F0884B /* Pods-RNLinkUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9F3C8D2A9173DD46D38483396463CA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5096269D5EB6F7660D9E780C369AFDA;
+			remoteInfo = RNLinkUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010F1A4BA4213C2DEAE034A63169B359 /* RNScrollViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RNScrollViewMaker.h; sourceTree = "<group>"; };
+		01CE015396234DDA6B4D8B7D1054B4A4 /* RNLinkUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RNLinkUIKit.framework; path = RNLinkUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		043E26D6E0C45E970364E173F6F803C0 /* Pods-RNLinkUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNLinkUIKit_Example-dummy.m"; sourceTree = "<group>"; };
+		05CDADE7E9BC9AB990AA17F6DF965397 /* RNImageViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RNImageViewMaker.m; sourceTree = "<group>"; };
+		06272BCA62C9C22E94023FE8AB271022 /* Pods-RNLinkUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNLinkUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E6174C70B1ADBCCF2C7A8C852033857 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F3DEBA6AD0D8DC7793E382560FD2DB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		129401F9994B258350FDE043DCAC4248 /* RNButtonMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RNButtonMaker.h; sourceTree = "<group>"; };
+		129CA0438AF8E3209538298125F23360 /* RNCollectionViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RNCollectionViewMaker.m; sourceTree = "<group>"; };
+		147F92D28C49D05C456ECA0DB65CA5C3 /* Pods-RNLinkUIKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNLinkUIKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		1D16D3411A25E075EEAC9D6D3081E078 /* RNLinkUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RNLinkUIKit.h; sourceTree = "<group>"; };
+		1E97B7F58C0E8B213CCBB2FC4DC7B7DE /* Pods-RNLinkUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RNLinkUIKit_Example.modulemap"; sourceTree = "<group>"; };
+		1E9A968C54408DEBFEB783F31685A089 /* RNTextViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RNTextViewMaker.m; sourceTree = "<group>"; };
+		1FFADC9328BEF8D425B837DF86EB7C90 /* Pods-RNLinkUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNLinkUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		27B2DC3EB3710832D8FA4E39B5F627ED /* RNLinkUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RNLinkUIKit.modulemap; sourceTree = "<group>"; };
+		42E96BD53E0C9F1C74DD4117E9F0B30A /* RNViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RNViewMaker.m; sourceTree = "<group>"; };
+		43F02465091486FDCFBD7A8D7ABF938A /* RNCollectionViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RNCollectionViewMaker.h; sourceTree = "<group>"; };
+		45C48A1859B4FDC8D9C13386A4674E54 /* Pods-RNLinkUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RNLinkUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DB934CE13239B92F9EDB232D709503E /* RNTableViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RNTableViewMaker.h; sourceTree = "<group>"; };
+		4E81F1744C9A0F9A148E633E81C8E4B2 /* RNImageViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RNImageViewMaker.h; sourceTree = "<group>"; };
+		66D3708178A516EAE60C02FCCF364E20 /* RNLinkUIKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RNLinkUIKit.m; sourceTree = "<group>"; };
+		6C82FEF3243B60D6ABB363C39D8E4FA6 /* RNViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RNViewMaker.h; sourceTree = "<group>"; };
+		7046E1693E4E88A30D2F3282944BD937 /* Pods-RNLinkUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNLinkUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7A11E462B1E0394FE67198F3D6BC74D0 /* Pods-RNLinkUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNLinkUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7AFC277262957A9B320D0B9DE176B22A /* Pods-RNLinkUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNLinkUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B1524E46117035C91141A0F85863CE8 /* Pods-RNLinkUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RNLinkUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		7C9D18322E46AB11EF308C96D690C4A5 /* RNTableViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RNTableViewMaker.m; sourceTree = "<group>"; };
+		929AD6D065FDC55026E900B76F2D2042 /* RNLabelMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RNLabelMaker.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94351294D16F08A0550051EEB06F929B /* RNControlMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RNControlMaker.h; sourceTree = "<group>"; };
+		94B6F3E9CD465680598F9C659EB560D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		981D845022A250BF35B0FEF7AC29C2E2 /* Pods_RNLinkUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RNLinkUIKit_Tests.framework; path = "Pods-RNLinkUIKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B4B8266DBC40F1BAA82F92F200460D /* Pods-RNLinkUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RNLinkUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A9559BA45076557E44119CE8D221E3F /* Pods_RNLinkUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RNLinkUIKit_Example.framework; path = "Pods-RNLinkUIKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2312F6A867F762CC1F187AA1C202F1F /* RNControlMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RNControlMaker.m; sourceTree = "<group>"; };
+		A4F39139161C632D0F0196DEDA607FDA /* RNLinkUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNLinkUIKit-dummy.m"; sourceTree = "<group>"; };
+		AC90329612CB10CDC94107EA1C716EDC /* Pods-RNLinkUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RNLinkUIKit_Tests.modulemap"; sourceTree = "<group>"; };
+		ADC0F020263CDEF090BE2A6730071FEA /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		B2589D82E9CF47CB13B927F7946948F0 /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		B5C71FD2A65156C7B9DEEFDA3DE88CB2 /* Pods-RNLinkUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNLinkUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B9017548815648F1D690BB22334168AF /* RNLinkUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNLinkUIKit-prefix.pch"; sourceTree = "<group>"; };
+		B9825B21D9191F078BEC7847C4F0884B /* Pods-RNLinkUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RNLinkUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C2491189A2DF0146E9DBBA9357102923 /* RNButtonMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RNButtonMaker.m; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFDC9475732B93BEEFC4939A24276E4E /* RNLabelMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RNLabelMaker.m; sourceTree = "<group>"; };
+		E095CC3C03C23E26B6EC64407C8C7457 /* RNLinkUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNLinkUIKit-umbrella.h"; sourceTree = "<group>"; };
+		E1C3742E7709BC54AD072E2DDAF0F66F /* RNScrollViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RNScrollViewMaker.m; sourceTree = "<group>"; };
+		E63FA3A9448CA6D33B9383902DBB1201 /* Pods-RNLinkUIKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNLinkUIKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EDBE3153628428E64E8882FA6EC9C844 /* Pods-RNLinkUIKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNLinkUIKit_Example-resources.sh"; sourceTree = "<group>"; };
+		F200C67E7BD0536F64031F3CC1DD3DED /* RNTextViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RNTextViewMaker.h; sourceTree = "<group>"; };
+		F65C621E0590EE5FAB1A80AD3BD474DD /* RNLinkUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RNLinkUIKit.xcconfig; sourceTree = "<group>"; };
+		F8CA850F71DA169E1308BA8DC184DC05 /* Pods-RNLinkUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNLinkUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F9F8E07E313AFE91CEAC59FF1C8532DC /* Pods-RNLinkUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNLinkUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50CAB291372ABF7E261B9C7720D1EAAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				704A6F6C0CD05820773F146244138895 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4CB399EC27D0E052AFE6A954D4E335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF637AB418ED961550A2B97DA822A91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7633BC99BD579FF718EB43C02DACD9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72F8A798CD4B9E2576EB80E2BFA814B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2448391BB3FC8C1C9D7DDB71BF6867AF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				129401F9994B258350FDE043DCAC4248 /* RNButtonMaker.h */,
+				C2491189A2DF0146E9DBBA9357102923 /* RNButtonMaker.m */,
+				43F02465091486FDCFBD7A8D7ABF938A /* RNCollectionViewMaker.h */,
+				129CA0438AF8E3209538298125F23360 /* RNCollectionViewMaker.m */,
+				94351294D16F08A0550051EEB06F929B /* RNControlMaker.h */,
+				A2312F6A867F762CC1F187AA1C202F1F /* RNControlMaker.m */,
+				4E81F1744C9A0F9A148E633E81C8E4B2 /* RNImageViewMaker.h */,
+				05CDADE7E9BC9AB990AA17F6DF965397 /* RNImageViewMaker.m */,
+				929AD6D065FDC55026E900B76F2D2042 /* RNLabelMaker.h */,
+				CFDC9475732B93BEEFC4939A24276E4E /* RNLabelMaker.m */,
+				1D16D3411A25E075EEAC9D6D3081E078 /* RNLinkUIKit.h */,
+				66D3708178A516EAE60C02FCCF364E20 /* RNLinkUIKit.m */,
+				010F1A4BA4213C2DEAE034A63169B359 /* RNScrollViewMaker.h */,
+				E1C3742E7709BC54AD072E2DDAF0F66F /* RNScrollViewMaker.m */,
+				4DB934CE13239B92F9EDB232D709503E /* RNTableViewMaker.h */,
+				7C9D18322E46AB11EF308C96D690C4A5 /* RNTableViewMaker.m */,
+				F200C67E7BD0536F64031F3CC1DD3DED /* RNTextViewMaker.h */,
+				1E9A968C54408DEBFEB783F31685A089 /* RNTextViewMaker.m */,
+				6C82FEF3243B60D6ABB363C39D8E4FA6 /* RNViewMaker.h */,
+				42E96BD53E0C9F1C74DD4117E9F0B30A /* RNViewMaker.m */,
+				B2589D82E9CF47CB13B927F7946948F0 /* UIColor+Hex.h */,
+				ADC0F020263CDEF090BE2A6730071FEA /* UIColor+Hex.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4BF3DDCB9A7C3DC9F1CDE398290F67C6 /* Pods-RNLinkUIKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0F3DEBA6AD0D8DC7793E382560FD2DB1 /* Info.plist */,
+				AC90329612CB10CDC94107EA1C716EDC /* Pods-RNLinkUIKit_Tests.modulemap */,
+				99B4B8266DBC40F1BAA82F92F200460D /* Pods-RNLinkUIKit_Tests-acknowledgements.markdown */,
+				7AFC277262957A9B320D0B9DE176B22A /* Pods-RNLinkUIKit_Tests-acknowledgements.plist */,
+				1FFADC9328BEF8D425B837DF86EB7C90 /* Pods-RNLinkUIKit_Tests-dummy.m */,
+				E63FA3A9448CA6D33B9383902DBB1201 /* Pods-RNLinkUIKit_Tests-frameworks.sh */,
+				147F92D28C49D05C456ECA0DB65CA5C3 /* Pods-RNLinkUIKit_Tests-resources.sh */,
+				B9825B21D9191F078BEC7847C4F0884B /* Pods-RNLinkUIKit_Tests-umbrella.h */,
+				06272BCA62C9C22E94023FE8AB271022 /* Pods-RNLinkUIKit_Tests.debug.xcconfig */,
+				7A11E462B1E0394FE67198F3D6BC74D0 /* Pods-RNLinkUIKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-RNLinkUIKit_Tests";
+			path = "Target Support Files/Pods-RNLinkUIKit_Tests";
+			sourceTree = "<group>";
+		};
+		4DB41DD9CB88B0746D55863A3E9E6938 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B57602F29C2D0865C09520D9DD92F9E3 /* RNLinkUIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		745C0F55C09658D6A351814167306D75 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83270C24B99D4D7D1728AD05D29556A1 /* Pods-RNLinkUIKit_Example */,
+				4BF3DDCB9A7C3DC9F1CDE398290F67C6 /* Pods-RNLinkUIKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4DB41DD9CB88B0746D55863A3E9E6938 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BF2DC9F231559CABD39F1A7F6ACCE186 /* Products */,
+				745C0F55C09658D6A351814167306D75 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83270C24B99D4D7D1728AD05D29556A1 /* Pods-RNLinkUIKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				94B6F3E9CD465680598F9C659EB560D6 /* Info.plist */,
+				1E97B7F58C0E8B213CCBB2FC4DC7B7DE /* Pods-RNLinkUIKit_Example.modulemap */,
+				45C48A1859B4FDC8D9C13386A4674E54 /* Pods-RNLinkUIKit_Example-acknowledgements.markdown */,
+				F9F8E07E313AFE91CEAC59FF1C8532DC /* Pods-RNLinkUIKit_Example-acknowledgements.plist */,
+				043E26D6E0C45E970364E173F6F803C0 /* Pods-RNLinkUIKit_Example-dummy.m */,
+				F8CA850F71DA169E1308BA8DC184DC05 /* Pods-RNLinkUIKit_Example-frameworks.sh */,
+				EDBE3153628428E64E8882FA6EC9C844 /* Pods-RNLinkUIKit_Example-resources.sh */,
+				7B1524E46117035C91141A0F85863CE8 /* Pods-RNLinkUIKit_Example-umbrella.h */,
+				B5C71FD2A65156C7B9DEEFDA3DE88CB2 /* Pods-RNLinkUIKit_Example.debug.xcconfig */,
+				7046E1693E4E88A30D2F3282944BD937 /* Pods-RNLinkUIKit_Example.release.xcconfig */,
+			);
+			name = "Pods-RNLinkUIKit_Example";
+			path = "Target Support Files/Pods-RNLinkUIKit_Example";
+			sourceTree = "<group>";
+		};
+		981C7BB5ABB599A815D1ABF0C4284175 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E6174C70B1ADBCCF2C7A8C852033857 /* Info.plist */,
+				27B2DC3EB3710832D8FA4E39B5F627ED /* RNLinkUIKit.modulemap */,
+				F65C621E0590EE5FAB1A80AD3BD474DD /* RNLinkUIKit.xcconfig */,
+				A4F39139161C632D0F0196DEDA607FDA /* RNLinkUIKit-dummy.m */,
+				B9017548815648F1D690BB22334168AF /* RNLinkUIKit-prefix.pch */,
+				E095CC3C03C23E26B6EC64407C8C7457 /* RNLinkUIKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RNLinkUIKit";
+			sourceTree = "<group>";
+		};
+		B57602F29C2D0865C09520D9DD92F9E3 /* RNLinkUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B827322E14511AFFFCFFFF532A2CE444 /* RNLinkUIKit */,
+				981C7BB5ABB599A815D1ABF0C4284175 /* Support Files */,
+			);
+			name = RNLinkUIKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B827322E14511AFFFCFFFF532A2CE444 /* RNLinkUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2448391BB3FC8C1C9D7DDB71BF6867AF /* Classes */,
+			);
+			name = RNLinkUIKit;
+			path = RNLinkUIKit;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF2DC9F231559CABD39F1A7F6ACCE186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A9559BA45076557E44119CE8D221E3F /* Pods_RNLinkUIKit_Example.framework */,
+				981D845022A250BF35B0FEF7AC29C2E2 /* Pods_RNLinkUIKit_Tests.framework */,
+				01CE015396234DDA6B4D8B7D1054B4A4 /* RNLinkUIKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15A38E2F4B552B4607156A7A57D471F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B143329804C2C6696ADA53E417DC0EEB /* RNButtonMaker.h in Headers */,
+				9D8ED239B80A4BC77CCA9C7AF29E3700 /* RNCollectionViewMaker.h in Headers */,
+				374924EC2F7B16E596001279348F12D2 /* RNControlMaker.h in Headers */,
+				2290072531E10DD420CCC04E251829C4 /* RNImageViewMaker.h in Headers */,
+				C155F21E161E8FE1002D83A188019DE9 /* RNLabelMaker.h in Headers */,
+				E5AA97F9BE7BA784CAAAC8FCFEC95B3A /* RNLinkUIKit-umbrella.h in Headers */,
+				E8BC295DA718DD3CF9C1EC04F439464F /* RNLinkUIKit.h in Headers */,
+				F8AD6D4713BC1CB0B6C95B4C4C80DCCF /* RNScrollViewMaker.h in Headers */,
+				91FBFA06E6E39EC38EE932071FC11A1F /* RNTableViewMaker.h in Headers */,
+				ABF9DEE0807F862DFBB56B7188FD79AC /* RNTextViewMaker.h in Headers */,
+				C6CFDFECC90C8BAC2B06267459DF09A9 /* RNViewMaker.h in Headers */,
+				E49A330847AD97A3BFB30681A2422FD1 /* UIColor+Hex.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F42C215901CE13266F6C1B8599D86C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564754A54446187E20154CC463DD7726 /* Pods-RNLinkUIKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E791CD7C47F2F631A4DF40F1E58E7862 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCCFE947E9F4914BE30F54D46220EE8 /* Pods-RNLinkUIKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B7DB06FB52DB794A75A701A15457B8AD /* Pods-RNLinkUIKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C15392496A453596E73A4055E8624CD /* Build configuration list for PBXNativeTarget "Pods-RNLinkUIKit_Example" */;
+			buildPhases = (
+				61875A49CAA2E8675E7AFCF0CB453D71 /* Sources */,
+				50CAB291372ABF7E261B9C7720D1EAAC /* Frameworks */,
+				4F42C215901CE13266F6C1B8599D86C7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4D0A94D4182434F55F3967AE47DF890 /* PBXTargetDependency */,
+			);
+			name = "Pods-RNLinkUIKit_Example";
+			productName = "Pods-RNLinkUIKit_Example";
+			productReference = 9A9559BA45076557E44119CE8D221E3F /* Pods_RNLinkUIKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC92628922513D4B6D17D8DE75D97CE1 /* Pods-RNLinkUIKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CBF8D29881CD7C98A6C2008DE0E6603 /* Build configuration list for PBXNativeTarget "Pods-RNLinkUIKit_Tests" */;
+			buildPhases = (
+				51BBA2A77490BEAD586B2F7DCAB80452 /* Sources */,
+				A7633BC99BD579FF718EB43C02DACD9C /* Frameworks */,
+				E791CD7C47F2F631A4DF40F1E58E7862 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RNLinkUIKit_Tests";
+			productName = "Pods-RNLinkUIKit_Tests";
+			productReference = 981D845022A250BF35B0FEF7AC29C2E2 /* Pods_RNLinkUIKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5096269D5EB6F7660D9E780C369AFDA /* RNLinkUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADE8C2866AB5CFD065C8D433267A312 /* Build configuration list for PBXNativeTarget "RNLinkUIKit" */;
+			buildPhases = (
+				DF4D6FB3761D074462E71FACE717E796 /* Sources */,
+				6A4CB399EC27D0E052AFE6A954D4E335 /* Frameworks */,
+				15A38E2F4B552B4607156A7A57D471F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNLinkUIKit;
+			productName = RNLinkUIKit;
+			productReference = 01CE015396234DDA6B4D8B7D1054B4A4 /* RNLinkUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BF2DC9F231559CABD39F1A7F6ACCE186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7DB06FB52DB794A75A701A15457B8AD /* Pods-RNLinkUIKit_Example */,
+				DC92628922513D4B6D17D8DE75D97CE1 /* Pods-RNLinkUIKit_Tests */,
+				F5096269D5EB6F7660D9E780C369AFDA /* RNLinkUIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51BBA2A77490BEAD586B2F7DCAB80452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D160DF2E1A0A36A350AFC0CA5D100B10 /* Pods-RNLinkUIKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61875A49CAA2E8675E7AFCF0CB453D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A53B30D73EDEAE78F4BA4E4BCD35C9C /* Pods-RNLinkUIKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4D6FB3761D074462E71FACE717E796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C8E0969CABC01595B89388CB99E178 /* RNButtonMaker.m in Sources */,
+				6643A68C210E3A8143E754CE21F5F1C6 /* RNCollectionViewMaker.m in Sources */,
+				4B6A2579814FA0CAD576C49BABF52AE3 /* RNControlMaker.m in Sources */,
+				994302510BE88A86AFBD237D172F5E56 /* RNImageViewMaker.m in Sources */,
+				BEBDCF7628524A4481981B6FC423CBA1 /* RNLabelMaker.m in Sources */,
+				656EE1D342495D471ACC2AFDA180D944 /* RNLinkUIKit-dummy.m in Sources */,
+				954C72AA00DE9A9070F053EA4E821851 /* RNLinkUIKit.m in Sources */,
+				E021C9B806B8581624423DFFE5C4AB79 /* RNScrollViewMaker.m in Sources */,
+				322BD3EF6573F2A307E7034AB0717942 /* RNTableViewMaker.m in Sources */,
+				7EA9B737F50E01ADDD0CA57D72DB4EDD /* RNTextViewMaker.m in Sources */,
+				65EA0A47F957A62464F3FAA7ADAFD67B /* RNViewMaker.m in Sources */,
+				3DFC6C7B86EE2643BA34836CF5244E27 /* UIColor+Hex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4D0A94D4182434F55F3967AE47DF890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RNLinkUIKit;
+			target = F5096269D5EB6F7660D9E780C369AFDA /* RNLinkUIKit */;
+			targetProxy = E9F3C8D2A9173DD46D38483396463CA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		551652C7F7989604564DDCA2361706A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5C71FD2A65156C7B9DEEFDA3DE88CB2 /* Pods-RNLinkUIKit_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RNLinkUIKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RNLinkUIKit_Example/Pods-RNLinkUIKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RNLinkUIKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DABB3A95854C1407EDD848A736512C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F65C621E0590EE5FAB1A80AD3BD474DD /* RNLinkUIKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RNLinkUIKit/RNLinkUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RNLinkUIKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RNLinkUIKit/RNLinkUIKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RNLinkUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6572323CFE45EEE98876866E1A016D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06272BCA62C9C22E94023FE8AB271022 /* Pods-RNLinkUIKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RNLinkUIKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RNLinkUIKit_Tests/Pods-RNLinkUIKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RNLinkUIKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		722D017C52D14FCBF306126C03A48439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A11E462B1E0394FE67198F3D6BC74D0 /* Pods-RNLinkUIKit_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RNLinkUIKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RNLinkUIKit_Tests/Pods-RNLinkUIKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RNLinkUIKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		867D6DF3A1B0FD29D2163D6D9EC75B5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F65C621E0590EE5FAB1A80AD3BD474DD /* RNLinkUIKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RNLinkUIKit/RNLinkUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RNLinkUIKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RNLinkUIKit/RNLinkUIKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RNLinkUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BEC3D5DE3376B01CFF2D5CF80EA70E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7046E1693E4E88A30D2F3282944BD937 /* Pods-RNLinkUIKit_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RNLinkUIKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RNLinkUIKit_Example/Pods-RNLinkUIKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RNLinkUIKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C15392496A453596E73A4055E8624CD /* Build configuration list for PBXNativeTarget "Pods-RNLinkUIKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551652C7F7989604564DDCA2361706A7 /* Debug */,
+				BEC3D5DE3376B01CFF2D5CF80EA70E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ADE8C2866AB5CFD065C8D433267A312 /* Build configuration list for PBXNativeTarget "RNLinkUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DABB3A95854C1407EDD848A736512C6 /* Debug */,
+				867D6DF3A1B0FD29D2163D6D9EC75B5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CBF8D29881CD7C98A6C2008DE0E6603 /* Build configuration list for PBXNativeTarget "Pods-RNLinkUIKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6572323CFE45EEE98876866E1A016D51 /* Debug */,
+				722D017C52D14FCBF306126C03A48439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -21,8 +21,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		81DF2F481E0A8A5D00F0274C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81DF2F471E0A8A5D00F0274C /* LaunchScreen.storyboard */; };
 		8739B051F7CF492298F63138 /* Pods_RNLinkUIKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363105B82BDEC67143636211 /* Pods_RNLinkUIKit_Tests.framework */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,11 +60,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		B58BCD748BA37A19B8DEBE75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		81DF2F471E0A8A5D00F0274C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B58BCD748BA37A19B8DEBE75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D4840A61BDA2A14B9552BCBB /* Pods-RNLinkUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNLinkUIKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNLinkUIKit_Example/Pods-RNLinkUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EF9E52C5917593ABA1318632 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F98600098FE1FB7A983D1FF5 /* RNLinkUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RNLinkUIKit.podspec; path = ../RNLinkUIKit.podspec; sourceTree = "<group>"; };
+		EF9E52C5917593ABA1318632 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F98600098FE1FB7A983D1FF5 /* RNLinkUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RNLinkUIKit.podspec; path = ../RNLinkUIKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,10 +132,10 @@
 			children = (
 				6003F59C195388D20070C39A /* RNAppDelegate.h */,
 				6003F59D195388D20070C39A /* RNAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* RNViewController.h */,
 				6003F5A6195388D20070C39A /* RNViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				81DF2F471E0A8A5D00F0274C /* LaunchScreen.storyboard */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for RNLinkUIKit";
@@ -276,8 +276,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				81DF2F481E0A8A5D00F0274C /* LaunchScreen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,7 +512,6 @@
 			baseConfigurationReference = D4840A61BDA2A14B9552BCBB /* Pods-RNLinkUIKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RNLinkUIKit/RNLinkUIKit-Prefix.pch";
 				INFOPLIST_FILE = "RNLinkUIKit/RNLinkUIKit-Info.plist";
@@ -528,7 +527,6 @@
 			baseConfigurationReference = 34044FA647A3659B51182E71 /* Pods-RNLinkUIKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RNLinkUIKit/RNLinkUIKit-Prefix.pch";
 				INFOPLIST_FILE = "RNLinkUIKit/RNLinkUIKit-Info.plist";
