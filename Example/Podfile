@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RNLinkUIKit_Example' do
+  pod 'RNLinkUIKit', :path => '../'
+
+  target 'RNLinkUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
